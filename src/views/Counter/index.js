@@ -13,7 +13,6 @@ class Counter extends Component{
         })
     }
     render(){
-        console.log("#######",this.props);
         return (
             <div>
                 <h2>Counter</h2>
