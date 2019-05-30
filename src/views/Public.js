@@ -1,9 +1,7 @@
 import React,{Component} from 'react';
 export default class Public extends Component{
     jump = ()=>{
-        this.history.pushState({
-            path:'/protected'
-        });
+        this.props.history.push('protected')
     }
     render(){
         return(
